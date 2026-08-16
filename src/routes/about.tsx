@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
       { title: "About — RB Textile Mills" },
       {
         name: "description",
-        content: "Three decades of disciplined textile manufacturing from Narayanganj, Bangladesh.",
+        content: "25 YEARS of disciplined textile manufacturing from NARSINGDI, DHAKA, Bangladesh.",
       },
     ],
   }),
@@ -25,7 +25,7 @@ function AboutPage() {
       <section className="container-x py-20 md:py-32">
         <div className="text-[10px] uppercase tracking-[0.3em] text-ink/50 mb-4">About</div>
         <h1 className="text-4xl md:text-6xl max-w-4xl">
-          A vertically integrated textile mill, since {c(map, "about", "year_established", "1998")}.
+          WEAVING OPPORTUNITIES, since {c(map, "about", "year_established", "1998")}.
         </h1>
         <div className="mt-16 grid md:grid-cols-2 gap-12 border-t border-ink pt-12">
           <p className="text-base md:text-lg leading-relaxed text-ink/80">
